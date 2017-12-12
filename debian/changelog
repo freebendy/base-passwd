@@ -1,6 +1,8 @@
 base-passwd (3.5.45) UNRELEASED; urgency=medium
 
   * Set Rules-Requires-Root: no.
+  * Allocate uid/gid 64060, 64061, and 64062 to nova, cinder, and glance
+    respectively, by request of James Page (closes: #884178).
 
  -- Colin Watson <cjwatson@debian.org>  Sat, 02 Dec 2017 11:17:51 +0000
 
